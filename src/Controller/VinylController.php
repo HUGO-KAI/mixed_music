@@ -36,3 +36,4 @@ class VinylController extends AbstractController
     }
 
 }
+
