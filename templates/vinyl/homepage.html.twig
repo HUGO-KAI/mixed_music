@@ -35,6 +35,13 @@
         </div>
         
         <div class="col-12 col-md-8 ps-5">
+            <div data-controller="hello">
+                <input data-hello-target="name" type="text">
+
+                <button data-action="click->hello#greet">Greet</button>
+
+                <span data-hello-target="output"></span>
+            </div>
             <h2 class="mb-4">10 songs (30 minutes of 60 still available)</h2>
             {% for track in tracks %}
             <div class="song-list">
